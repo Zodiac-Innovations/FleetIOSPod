@@ -7,36 +7,22 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'FleetIOSPod'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of FleetIOSPod.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/magesteve/FleetIOSPod'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'magesteve' => 'magesteve@mac.com' }
-  s.source           = { :git => 'https://github.com/magesteve/FleetIOSPod.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'FleetIOSPod/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'FleetIOSPod' => ['FleetIOSPod/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+    s.name             = 'FleetIOSPod'
+    s.version          = '0.1.0'
+    s.summary          = 'Fast Development open source UI Framework for iOS Development.'
+    s.description      = <<-DESC
+    Channeling MacApp from the early days of Macintosh, Fleet is an open source UI Framework designed to help developers quickly created their iOS App.
+    DESC
+    
+    s.name             = 'FleetIOSPod'
+    s.homepage         = 'https://github.com/magesteve/FleetIOSPod'
+    s.license          = { :type => 'MIT', :file => 'LICENSE' }
+    s.author           = { 'Steve Sheets' => 'magesteve@mac.com' }
+    s.source           = { :git => 'https://github.com/magesteve/FleetIOSPod.git', :tag =>     s.version.to_s }
+    s.social_media_url = 'https://twitter.com/magesteve'
+    
+    s.ios.deployment_target = ’11.0’
+    s.source_files = 'FleetIOSPod/Classes/*.swift'
+    s.frameworks = 'UIKit'
+    s.swift_version = '5.0'
 end
