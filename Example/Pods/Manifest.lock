@@ -1,0 +1,16 @@
+PODS:
+  - FleetIOSPod (0.1.0)
+
+DEPENDENCIES:
+  - FleetIOSPod (from `../`)
+
+EXTERNAL SOURCES:
+  FleetIOSPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FleetIOSPod: d8ac066889cb1529143bfcc504e4a3e99e0afd1a
+
+PODFILE CHECKSUM: 3ee8ba16b870426fed2f556af7a2ff01e4b40057
+
+COCOAPODS: 1.7.0.beta.3
