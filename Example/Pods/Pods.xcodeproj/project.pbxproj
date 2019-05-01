@@ -11,9 +11,14 @@
 		22AECE876A6BBB2388900FD076CC09D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		65370197A6B68441051773CAE929CE23 /* Pods-FleetIOSPod_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D848B7B465A82FBC2264BC0BFBCD851 /* Pods-FleetIOSPod_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		680529E1B32F45B3FB1C53CFC6291E8B /* Pods-FleetIOSPod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AAF3ABD28446BB1D9E725CD26F7743E /* Pods-FleetIOSPod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA044A802278229600CEBB83 /* Fleet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA044A7F2278229600CEBB83 /* Fleet.swift */; };
+		AA044A82227822E000CEBB83 /* FleetAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA044A81227822E000CEBB83 /* FleetAppDelegate.swift */; };
+		AA044A84227822FB00CEBB83 /* FleetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA044A83227822FB00CEBB83 /* FleetViewController.swift */; };
+		AA044A862278231600CEBB83 /* FleetRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA044A852278231600CEBB83 /* FleetRootViewController.swift */; };
+		AA044A882278233D00CEBB83 /* FleetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA044A872278233D00CEBB83 /* FleetView.swift */; };
+		AA044A922278BE2800CEBB83 /* FleetContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA044A912278BE2800CEBB83 /* FleetContainerView.swift */; };
 		B701A5D43058FFFCF2C131ED7C451889 /* Pods-FleetIOSPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABB0CB43EA6E214B441EDFEA2943522 /* Pods-FleetIOSPod_Tests-dummy.m */; };
 		B7DA102440D02EFD34EE4503A0016B30 /* Pods-FleetIOSPod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D1499B9382E406225ABFCCB2F4F6E71 /* Pods-FleetIOSPod_Example-dummy.m */; };
-		BDB0BEED9DF228C01358DC85909E316E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191C0296BE83AA172F372653974C67DA /* ReplaceMe.swift */; };
 		C92FEC0C54EB69BE21A749C267587A69 /* FleetIOSPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E271C4C5322A4316C184B940D46019 /* FleetIOSPod-dummy.m */; };
 		C9F82B4DC56DDF76D5D0BF43C3FF620E /* FleetIOSPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 65DD94DF5691AE1A40E36114324419F0 /* FleetIOSPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FBBA04F26F45CF99EF2FA06A6364B2D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
@@ -38,7 +43,6 @@
 
 /* Begin PBXFileReference section */
 		12710537CBDB4BA8D2D36573876AF618 /* Pods-FleetIOSPod_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FleetIOSPod_Example-Info.plist"; sourceTree = "<group>"; };
-		191C0296BE83AA172F372653974C67DA /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = FleetIOSPod/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		1C620AC640837BFE86F32230E98B537D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		262EC50B6B635A2A22C387C578F9CF4C /* Pods-FleetIOSPod_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FleetIOSPod_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		2B3D2EF2F1B05B10C5EE6D2CF9BB7967 /* Pods-FleetIOSPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FleetIOSPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -63,6 +67,12 @@
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A6745D91299A16FCA4AB2B9E2F5123AB /* Pods-FleetIOSPod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FleetIOSPod_Tests.modulemap"; sourceTree = "<group>"; };
 		A8BBD6BC6E0DE1F3621B950620712EEA /* FleetIOSPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FleetIOSPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA044A7F2278229600CEBB83 /* Fleet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Fleet.swift; path = FleetIOSPod/Classes/Fleet.swift; sourceTree = "<group>"; };
+		AA044A81227822E000CEBB83 /* FleetAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FleetAppDelegate.swift; path = FleetIOSPod/Classes/FleetAppDelegate.swift; sourceTree = "<group>"; };
+		AA044A83227822FB00CEBB83 /* FleetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FleetViewController.swift; path = FleetIOSPod/Classes/FleetViewController.swift; sourceTree = "<group>"; };
+		AA044A852278231600CEBB83 /* FleetRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FleetRootViewController.swift; path = FleetIOSPod/Classes/FleetRootViewController.swift; sourceTree = "<group>"; };
+		AA044A872278233D00CEBB83 /* FleetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FleetView.swift; path = FleetIOSPod/Classes/FleetView.swift; sourceTree = "<group>"; };
+		AA044A912278BE2800CEBB83 /* FleetContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FleetContainerView.swift; path = FleetIOSPod/Classes/FleetContainerView.swift; sourceTree = "<group>"; };
 		B2DBEE0CE5A97D6744728527D9A9EFFD /* FleetIOSPod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FleetIOSPod-Info.plist"; sourceTree = "<group>"; };
 		B8FD93E59E24F61DAC1CF63E5B044857 /* Pods-FleetIOSPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FleetIOSPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C7CE33D11FEB98A9B3CD629B96436275 /* Pods-FleetIOSPod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FleetIOSPod_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -154,7 +164,12 @@
 		7C31B8A62B6D19C3AE3DA7B046D040EB /* FleetIOSPod */ = {
 			isa = PBXGroup;
 			children = (
-				191C0296BE83AA172F372653974C67DA /* ReplaceMe.swift */,
+				AA044A7F2278229600CEBB83 /* Fleet.swift */,
+				AA044A81227822E000CEBB83 /* FleetAppDelegate.swift */,
+				AA044A872278233D00CEBB83 /* FleetView.swift */,
+				AA044A912278BE2800CEBB83 /* FleetContainerView.swift */,
+				AA044A83227822FB00CEBB83 /* FleetViewController.swift */,
+				AA044A852278231600CEBB83 /* FleetRootViewController.swift */,
 				964BB48927A2E53A3D549FB73F0A7EAE /* Pod */,
 				E9BAEAF3B34A16939D038EE4B31108E1 /* Support Files */,
 			);
@@ -371,7 +386,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C92FEC0C54EB69BE21A749C267587A69 /* FleetIOSPod-dummy.m in Sources */,
-				BDB0BEED9DF228C01358DC85909E316E /* ReplaceMe.swift in Sources */,
+				AA044A862278231600CEBB83 /* FleetRootViewController.swift in Sources */,
+				AA044A922278BE2800CEBB83 /* FleetContainerView.swift in Sources */,
+				AA044A882278233D00CEBB83 /* FleetView.swift in Sources */,
+				AA044A82227822E000CEBB83 /* FleetAppDelegate.swift in Sources */,
+				AA044A802278229600CEBB83 /* Fleet.swift in Sources */,
+				AA044A84227822FB00CEBB83 /* FleetViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,7 +445,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-FleetIOSPod_Example/Pods-FleetIOSPod_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-FleetIOSPod_Example/Pods-FleetIOSPod_Example.modulemap";
@@ -459,7 +479,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/FleetIOSPod/FleetIOSPod-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/FleetIOSPod/FleetIOSPod-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/FleetIOSPod/FleetIOSPod.modulemap";
 				PRODUCT_MODULE_NAME = FleetIOSPod;
@@ -490,7 +510,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/FleetIOSPod/FleetIOSPod-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/FleetIOSPod/FleetIOSPod-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/FleetIOSPod/FleetIOSPod.modulemap";
 				PRODUCT_MODULE_NAME = FleetIOSPod;
@@ -522,7 +542,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-FleetIOSPod_Example/Pods-FleetIOSPod_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-FleetIOSPod_Example/Pods-FleetIOSPod_Example.modulemap";
@@ -555,7 +575,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-FleetIOSPod_Tests/Pods-FleetIOSPod_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-FleetIOSPod_Tests/Pods-FleetIOSPod_Tests.modulemap";
@@ -625,7 +645,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -654,7 +674,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-FleetIOSPod_Tests/Pods-FleetIOSPod_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-FleetIOSPod_Tests/Pods-FleetIOSPod_Tests.modulemap";
@@ -720,7 +740,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
